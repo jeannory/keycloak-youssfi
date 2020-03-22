@@ -1,0 +1,32 @@
+http://localhost:8080
+linux ==>
+sudo /home/jeannory/repos/keycloak-youssfi/server/keycloak-9.0.0/bin/standalone.sh
+
+admin
+1234
+
+mohamed
+1234
+
+rachel@gmail.com
+1234
+
+rachid
+1234
+
+***********************************************************************
+envoyer une requete avec advanced rest client pour récupérer le token
+POST
+http://localhost:8080/auth/realms/ecom-realm/protocol/openid-connect/token
+
+Dans body choisir
+Application/x-www-form-urlencoded ==> Form data (www-url-form-encoded)
+Ajouter comme parametres
+username ==> rachel@gmail.com
+password ==> 1234
+client_id ==> products-app
+grant_type ==> password
+
+***********************************************************************
+
+

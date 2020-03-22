@@ -1,0 +1,116 @@
+2020-03-20 07:49:38,113 INFO  [org.jboss.modules] (main) JBoss Modules version 1.9.1.Final
+2020-03-20 07:49:39,336 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.11.Final
+2020-03-20 07:49:39,357 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.3.Final
+2020-03-20 07:49:39,603 INFO  [org.jboss.as] (MSC service thread 1-1) WFLYSRV0049: Keycloak 9.0.0 (WildFly Core 10.0.3.Final) starting
+2020-03-20 07:49:39,605 DEBUG [org.jboss.as.config] (MSC service thread 1-1) Configured system properties:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/java/jdk1.8.0_181/jre/lib/endorsed
+	java.ext.dirs = /usr/java/jdk1.8.0_181/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/java/jdk1.8.0_181/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_181-b13
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_181
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.181-b13
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.home.dir = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0
+	jboss.host.name = jeannory-hp-elitebook-840-g1
+	jboss.modules.dir = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = jeannory-hp-elitebook-840-g1
+	jboss.qualified.host.name = jeannory-hp-elitebook-840-g1
+	jboss.server.base.dir = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone
+	jboss.server.config.dir = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone/configuration
+	jboss.server.data.dir = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone/data
+	jboss.server.deploy.dir = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone/data/content
+	jboss.server.log.dir = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone/log
+	jboss.server.name = jeannory-hp-elitebook-840-g1
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone/configuration/logging.properties
+	module.path = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/modules
+	org.jboss.boot.log.file = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.15.0-54-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/java/jdk1.8.0_181/jre/lib/resources.jar:/usr/java/jdk1.8.0_181/jre/lib/rt.jar:/usr/java/jdk1.8.0_181/jre/lib/sunrsasign.jar:/usr/java/jdk1.8.0_181/jre/lib/jsse.jar:/usr/java/jdk1.8.0_181/jre/lib/jce.jar:/usr/java/jdk1.8.0_181/jre/lib/charsets.jar:/usr/java/jdk1.8.0_181/jre/lib/jfr.jar:/usr/java/jdk1.8.0_181/jre/classes
+	sun.boot.library.path = /usr/java/jdk1.8.0_181/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/jboss-modules.jar -mp /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/modules org.jboss.as.standalone -Djboss.home.dir=/home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0 -Djboss.server.base.dir=/home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = FR
+	user.dir = /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/bin
+	user.home = /home/jeannory
+	user.language = fr
+	user.name = jeannory
+	user.timezone = Europe/Paris
+2020-03-20 07:49:39,606 DEBUG [org.jboss.as.config] (MSC service thread 1-1) VM Arguments: -D[Standalone] -Xms64m -Xmx512m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone/log/server.log -Dlogging.configuration=file:/home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone/configuration/logging.properties 
+2020-03-20 07:49:41,685 INFO  [org.wildfly.security] (ServerService Thread Pool -- 13) ELY00001: WildFly Elytron version 1.10.4.Final
+2020-03-20 07:49:43,229 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-03-20 07:49:43,403 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 27) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2020-03-20 07:49:43,835 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2020-03-20 07:49:43,913 INFO  [org.xnio] (MSC service thread 1-8) XNIO version 3.7.3.Final
+2020-03-20 07:49:43,970 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.7.3.Final
+2020-03-20 07:49:44,161 INFO  [org.jboss.remoting] (MSC service thread 1-5) JBoss Remoting version 5.0.15.Final
+2020-03-20 07:49:44,229 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 36) WFLYIO001: Worker 'default' has auto-configured to 8 core threads with 64 task threads based on your 4 available processors
+2020-03-20 07:49:44,329 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 49) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2020-03-20 07:49:44,340 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 37) WFLYCLINF0001: Activating Infinispan subsystem.
+2020-03-20 07:49:44,359 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 48) WFLYSEC0002: Activating Security Subsystem
+2020-03-20 07:49:44,369 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 43) WFLYNAM0001: Activating Naming Subsystem
+2020-03-20 07:49:44,425 INFO  [org.wildfly.extension.microprofile.config.smallrye._private] (ServerService Thread Pool -- 51) WFLYCONF0001: Activating WildFly MicroProfile Config Subsystem
+2020-03-20 07:49:44,338 INFO  [org.jboss.as.connector] (MSC service thread 1-5) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.17.Final)
+2020-03-20 07:49:44,339 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 38) WFLYRS0016: RESTEasy version 3.9.1.Final
+2020-03-20 07:49:44,460 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2020-03-20 07:49:44,519 INFO  [org.wildfly.extension.microprofile.health.smallrye] (ServerService Thread Pool -- 52) WFLYHEALTH0001: Activating Eclipse MicroProfile Health Subsystem
+2020-03-20 07:49:44,452 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 32) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2020-03-20 07:49:44,443 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2020-03-20 07:49:44,518 INFO  [org.jboss.as.security] (MSC service thread 1-7) WFLYSEC0001: Current PicketBox version=5.0.3.Final
+2020-03-20 07:49:44,553 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.0.27.Final starting
+2020-03-20 07:49:44,559 INFO  [org.wildfly.extension.microprofile.metrics.smallrye] (ServerService Thread Pool -- 53) WFLYMETRICS0001: Activating Eclipse MicroProfile Metrics Subsystem
+2020-03-20 07:49:44,604 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = h2
+2020-03-20 07:49:45,143 WARN  [org.wildfly.clustering.web.undertow] (ServerService Thread Pool -- 54) WFLYCLWEBUT0007: No routing provider found for default-server; using legacy provider based on static configuration
+2020-03-20 07:49:45,445 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 64 (per class), which is derived from thread worker pool sizing.
+2020-03-20 07:49:45,479 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 16 (per class), which is derived from the number of CPUs on this host.
+2020-03-20 07:49:45,508 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 54) WFLYUT0014: Creating file handler for path '/home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2020-03-20 07:49:45,530 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0012: Started server default-server.
+2020-03-20 07:49:45,533 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2020-03-20 07:49:45,836 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-1) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2020-03-20 07:49:46,168 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) WFLYEJB0493: EJB subsystem suspension complete
+2020-03-20 07:49:46,315 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-4) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2020-03-20 07:49:46,333 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/KeycloakDS]
+2020-03-20 07:49:46,446 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: Keycloak cumulative patch ID is: base, one-off patches include: none
+2020-03-20 07:49:46,510 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-1) WFLYDM0111: Keystore /home/jeannory/repos/keycloak-3-youssfi/server/keycloak-9.0.0/standalone/configuration/application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
