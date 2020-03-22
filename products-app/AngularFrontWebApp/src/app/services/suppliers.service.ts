@@ -10,7 +10,7 @@ export class SuppliersService {
   constructor(private http: HttpClient, private securityService: KeycloakSecurityService) { }
 
   public getSuppliers() {
-    return this.http.get('http://localhost:8083/suppliers',
-    {headers: new HttpHeaders({Authorization : 'Bearer ' + this.securityService.kc.token})});
+    return this.http.get('http://localhost:8083/suppliers');
+    // {headers: new HttpHeaders({Authorization : 'Bearer ' + this.securityService.kc.token})});
   }
 }
